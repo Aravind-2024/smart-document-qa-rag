@@ -52,16 +52,16 @@ Below is the interface of the Smart Document Q&A system.
     Web Interface	Streamlit
 
 📂 Project Structure
-    smart-document-qa-rag/
-    │
-    ├── app.py                 # Streamlit UI application
-    ├── rag_pipeline.py        # Document processing + RAG pipeline
-    ├── requirements.txt       # Python dependencies
-    ├── README.md
-    ├── .gitignore
-    │
-    ├── documents/             # Uploaded PDFs
-    └── vector_store/          # Stored FAISS indexes
+        smart-document-qa-rag/
+        │
+        ├── app.py                 # Streamlit UI application
+        ├── rag_pipeline.py        # Document processing + RAG pipeline
+        ├── requirements.txt       # Python dependencies
+        ├── README.md
+        ├── .gitignore
+        │
+        ├── documents/             # Uploaded PDFs
+        └── vector_store/          # Stored FAISS indexes
 
 ⚙️ Installation
 
