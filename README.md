@@ -7,15 +7,10 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) pipeline implem
 🚀 Features
 
     📂 Upload one or multiple PDF documents
-
     🔎 Semantic document search using vector embeddings
-
     🧠 AI-generated answers based only on document context
-
     💬 Chat-style question answering interface
-
     ⚡ Persistent FAISS vector database for fast retrieval
-
     🖥 Runs completely locally using Ollama and open-source models
 
 🧠 How It Works
@@ -66,51 +61,34 @@ Below is the interface of the Smart Document Q&A system.
 ⚙️ Installation
 
     Clone the repository:
-
     git clone https://github.com/Aravind-2024/smart-document-qa-rag.git
-
     Navigate into the project:
-
     cd smart-document-qa-rag
-
     Install dependencies:
-
     pip install -r requirements.txt
 
 ▶️ Running the Application
 
     Start the Streamlit interface:
-
     streamlit run app.py
-
     The web interface will open in your browser.
-
     Upload a document and start asking questions.
 
 💬 Example Questions
 
     You can ask questions like:
-
     What topics are discussed in this document?
-
     How many chapters are in this book?
-
     What does the document say about communication?
-
     Summarize the conclusion.
 
 📌 Future Improvements
 
     Potential enhancements for the system:
-
     Page number citations in answers
-
     Hybrid search (semantic + keyword search)
-
     Document summarization
-
     Better UI with conversation memory
-
     Deployment for public access
 
 👨‍💻 Author
@@ -120,16 +98,12 @@ Below is the interface of the Smart Document Q&A system.
     First AI project exploring:
 
     Retrieval-Augmented Generation
-
     Local LLM applications
-
     AI-powered document intelligence systems
 
 ⭐ Acknowledgement
     This project was built as part of learning modern AI development workflows involving:
 
     LLMs
-
     Vector databases
-
     Document retrieval systems
